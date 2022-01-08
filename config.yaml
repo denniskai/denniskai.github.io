@@ -5,17 +5,17 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国  上海SSR节点1, server: zsh.122ckc.xyz, port: 11527, type: ss, cipher: aes-256-cfb, password: yJVliV}
-  - {name: 中国 北京SSR节点1, server: bj1.122ckc.xyz, port: 11527, type: ss, cipher: aes-256-cfb, password: yJVliV}
-  - {name: 中国 广州SSR节点2(大带宽), server: cngz1.122ckc.xyz, port: 11527, type: ss, cipher: aes-256-cfb, password: yJVliV}
+  - {name: XXX, server: XXX, port: XXX, type: XXX, cipher: XXX, password: XXX}
+  - {name: XXX, server: XXX, port: XXX, type: XXX, cipher: XXX, password: XXX}
+  - {name: XXX, server: XXX, port: XXX, type: XXX, cipher: XXX, password: XXX}
 proxy-groups:
   - name: PROXY
     type: select
     proxies:
       - DIRECT
-      - 中国  上海SSR节点1
-      - 中国 北京SSR节点1
-      - 中国 广州SSR节点2(大带宽)
+      - XXX
+      - XXX
+      - XXX
 rules:
  - DOMAIN-SUFFIX,music.163.com,PROXY
  - DOMAIN-SUFFIX,music.126.net,PROXY
