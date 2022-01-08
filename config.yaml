@@ -1,0 +1,77 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: :9090
+proxies:
+  - {name: 中国  上海SSR节点1, server: zsh.122ckc.xyz, port: 11527, type: ss, cipher: aes-256-cfb, password: yJVliV}
+  - {name: 中国 北京SSR节点1, server: bj1.122ckc.xyz, port: 11527, type: ss, cipher: aes-256-cfb, password: yJVliV}
+  - {name: 中国 广州SSR节点2(大带宽), server: cngz1.122ckc.xyz, port: 11527, type: ss, cipher: aes-256-cfb, password: yJVliV}
+proxy-groups:
+  - name: PROXY
+    type: select
+    proxies:
+      - DIRECT
+      - 中国  上海SSR节点1
+      - 中国 北京SSR节点1
+      - 中国 广州SSR节点2(大带宽)
+rules:
+ - DOMAIN-SUFFIX,music.163.com,PROXY
+ - DOMAIN-SUFFIX,music.126.net,PROXY
+ - DOMAIN-SUFFIX,simuc.chem.ufl.edu,PROXY
+ - DOMAIN-SUFFIX,moria.chem.ufl.edu,PROXY
+ - DOMAIN-SUFFIX,ip.cn,PROXY
+ - DOMAIN-SUFFIX,ifconfig.me,PROXY
+ - DOMAIN-SUFFIX,m10.music.126.net,PROXY
+ - DOMAIN-SUFFIX,music.163.com/eapi,PROXY
+ - DOMAIN-SUFFIX,music.163.com/weapi,PROXY
+ - DOMAIN-SUFFIX,music.163.com/api,PROXY
+ - DOMAIN-SUFFIX,ipservice.163.com,PROXY
+ - DOMAIN-SUFFIX,weibo.com,PROXY
+ - DOMAIN-SUFFIX,xiami.com,PROXY
+ - DOMAIN-SUFFIX,www.xiami.com,PROXY
+ - DOMAIN-SUFFIX,xiami.net,PROXY
+ - DOMAIN-SUFFIX,taobao.com,PROXY
+ - DOMAIN-SUFFIX,mmstat.com,PROXY
+ - DOMAIN-SUFFIX,alicdn.com,PROXY
+ - DOMAIN-SUFFIX,pingfore.qq.com,PROXY
+ - DOMAIN-SUFFIX,h5cgi.video.qq.com,PROXY
+ - DOMAIN-SUFFIX,tj.video.qq.com,PROXY
+ - DOMAIN-SUFFIX,pingjs.qq.com,PROXY
+ - DOMAIN-SUFFIX,cm.l.qq.com,PROXY
+ - DOMAIN-SUFFIX,like.video.qq.com,PROXY
+ - DOMAIN-SUFFIX,dp3.qq.com,PROXY
+ - DOMAIN-SUFFIX,webrtcpunch.video.qq.com,PROXY
+ - DOMAIN-SUFFIX,login.tv.qq.com,PROXY
+ - DOMAIN-SUFFIX,btrace.video.qq.com,PROXY
+ - DOMAIN-SUFFIX,y.qq.com,PROXY
+ - DOMAIN-SUFFIX,ssl.captcha.qq.com,PROXY
+ - DOMAIN-SUFFIX,vd.l.qq.com,PROXY
+ - DOMAIN-SUFFIX,video.coral.qq.com,PROXY
+ - DOMAIN-SUFFIX,v.qq.com,PROXY
+ - DOMAIN-SUFFIX,c.v.qq.com,PROXY
+ - DOMAIN-SUFFIX,video.qq.com,PROXY
+ - DOMAIN-SUFFIX,cmts.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,iface2.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,api.vip.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,control-i.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,subscription.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,qosp.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,www.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,cmonitor.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,static.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,cache.video.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,l-rcd.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,search.video.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,acc-v2.if.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,notice.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,userpref.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,passport.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,cook.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,t7z.cupid.iqiyi.com,PROXY
+ - DOMAIN-SUFFIX,www.bilibili.com,PROXY
+ - DOMAIN-SUFFIX,api.bilibili.com,PROXY
+ - DOMAIN-SUFFIX,interface.bilibili.com,PROXY
+ - DOMAIN-SUFFIX,bangumi.bilibili.com/api,PROXY
+ - DOMAIN-KEYWORD,atianqi.com,PROXY
