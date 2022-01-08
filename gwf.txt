@@ -1,4 +1,5 @@
-
+server=/.ip138.com/127.0.0.1#5353
+ipset=/.ip138.com/gfwlist
 server=/.video.qq.com:443/127.0.0.1#5353
 server=/.video.qq.com/127.0.0.1#5353
 server=/3g.music.qq.com/127.0.0.1#5353
