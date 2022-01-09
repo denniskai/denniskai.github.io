@@ -10,7 +10,7 @@ DOMAIN-SUFFIX,ipservice.163.com
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ifconfig.me
 # Unlock Weibo
-# DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.com
 # Unlock Xiami music
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,www.xiami.com
