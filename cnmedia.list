@@ -1,63 +1,63 @@
 # Unlock Netease
- - DOMAIN-SUFFIX,music.163.com
- - DOMAIN-SUFFIX,music.126.net
- - DOMAIN-SUFFIX,m10.music.126.net
- - DOMAIN-SUFFIX,music.163.com/eapi
- - DOMAIN-SUFFIX,music.163.com/weapi
- - DOMAIN-SUFFIX,music.163.com/api
- - DOMAIN-SUFFIX,ipservice.163.com
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,m10.music.126.net
+DOMAIN-SUFFIX,music.163.com/eapi
+DOMAIN-SUFFIX,music.163.com/weapi
+DOMAIN-SUFFIX,music.163.com/api
+DOMAIN-SUFFIX,ipservice.163.com
 # Unlock ip testing
- - DOMAIN-SUFFIX,ip.cn
- - DOMAIN-SUFFIX,ifconfig.me
+DOMAIN-SUFFIX,ip.cn
+DOMAIN-SUFFIX,ifconfig.me
 # Unlock Weibo
- - DOMAIN-SUFFIX,weibo.com
+DOMAIN-SUFFIX,weibo.com
 # Unlock Xiami music
- - DOMAIN-SUFFIX,xiami.com
- - DOMAIN-SUFFIX,www.xiami.com
- - DOMAIN-SUFFIX,xiami.net
- - DOMAIN-SUFFIX,taobao.com
- - DOMAIN-SUFFIX,mmstat.com
- - DOMAIN-SUFFIX,alicdn.com
-# unlock tencent
- - DOMAIN-SUFFIX,pingfore.qq.com
- - DOMAIN-SUFFIX,h5cgi.video.qq.com
- - DOMAIN-SUFFIX,tj.video.qq.com
- - DOMAIN-SUFFIX,pingjs.qq.com
- - DOMAIN-SUFFIX,cm.l.qq.com
- - DOMAIN-SUFFIX,like.video.qq.com
- - DOMAIN-SUFFIX,dp3.qq.com
- - DOMAIN-SUFFIX,webrtcpunch.video.qq.com
- - DOMAIN-SUFFIX,login.tv.qq.com
- - DOMAIN-SUFFIX,btrace.video.qq.com
- - DOMAIN-SUFFIX,y.qq.com
- - DOMAIN-SUFFIX,ssl.captcha.qq.com
- - DOMAIN-SUFFIX,vd.l.qq.com
- - DOMAIN-SUFFIX,video.coral.qq.com
- - DOMAIN-SUFFIX,v.qq.com
- - DOMAIN-SUFFIX,c.v.qq.com
- - DOMAIN-SUFFIX,video.qq.com
-# unlock iqiyi
- - DOMAIN-SUFFIX,cmts.iqiyi.com
- - DOMAIN-SUFFIX,iface2.iqiyi.com
- - DOMAIN-SUFFIX,api.vip.iqiyi.com
- - DOMAIN-SUFFIX,control-i.iqiyi.com
- - DOMAIN-SUFFIX,subscription.iqiyi.com
- - DOMAIN-SUFFIX,qosp.iqiyi.com
- - DOMAIN-SUFFIX,www.iqiyi.com
- - DOMAIN-SUFFIX,cmonitor.iqiyi.com
- - DOMAIN-SUFFIX,static.iqiyi.com
- - DOMAIN-SUFFIX,cache.video.iqiyi.com
- - DOMAIN-SUFFIX,l-rcd.iqiyi.com
- - DOMAIN-SUFFIX,search.video.iqiyi.com
- - DOMAIN-SUFFIX,acc-v2.if.iqiyi.com
- - DOMAIN-SUFFIX,notice.iqiyi.com
- - DOMAIN-SUFFIX,userpref.iqiyi.com
- - DOMAIN-SUFFIX,passport.iqiyi.com
- - DOMAIN-SUFFIX,cook.iqiyi.com
- - DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
- - DOMAIN-SUFFIX,apisix-test.iqiyi.com
- - DOMAIN-SUFFIX,www.bilibili.com
- - DOMAIN-SUFFIX,api.bilibili.com
- - DOMAIN-SUFFIX,interface.bilibili.com
- - DOMAIN-SUFFIX,bangumi.bilibili.com/api
- - DOMAIN-KEYWORD,atianqi.com
+DOMAIN-SUFFIX,xiami.com
+DOMAIN-SUFFIX,www.xiami.com
+DOMAIN-SUFFIX,xiami.net
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,mmstat.com
+DOMAIN-SUFFIX,alicdn.com
+# Unlock tencent
+DOMAIN-SUFFIX,pingfore.qq.com
+DOMAIN-SUFFIX,h5cgi.video.qq.com
+DOMAIN-SUFFIX,tj.video.qq.com
+DOMAIN-SUFFIX,pingjs.qq.com
+DOMAIN-SUFFIX,cm.l.qq.com
+DOMAIN-SUFFIX,like.video.qq.com
+DOMAIN-SUFFIX,dp3.qq.com
+DOMAIN-SUFFIX,webrtcpunch.video.qq.com
+DOMAIN-SUFFIX,login.tv.qq.com
+DOMAIN-SUFFIX,btrace.video.qq.com
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,ssl.captcha.qq.com
+DOMAIN-SUFFIX,vd.l.qq.com
+DOMAIN-SUFFIX,video.coral.qq.com
+DOMAIN-SUFFIX,v.qq.com
+DOMAIN-SUFFIX,c.v.qq.com
+DOMAIN-SUFFIX,video.qq.com
+# Unlock iqiyi
+DOMAIN-SUFFIX,cmts.iqiyi.com
+DOMAIN-SUFFIX,iface2.iqiyi.com
+DOMAIN-SUFFIX,api.vip.iqiyi.com
+DOMAIN-SUFFIX,control-i.iqiyi.com
+DOMAIN-SUFFIX,subscription.iqiyi.com
+DOMAIN-SUFFIX,qosp.iqiyi.com
+DOMAIN-SUFFIX,www.iqiyi.com
+DOMAIN-SUFFIX,cmonitor.iqiyi.com
+DOMAIN-SUFFIX,static.iqiyi.com
+DOMAIN-SUFFIX,cache.video.iqiyi.com
+DOMAIN-SUFFIX,l-rcd.iqiyi.com
+DOMAIN-SUFFIX,search.video.iqiyi.com
+DOMAIN-SUFFIX,acc-v2.if.iqiyi.com
+DOMAIN-SUFFIX,notice.iqiyi.com
+DOMAIN-SUFFIX,userpref.iqiyi.com
+DOMAIN-SUFFIX,passport.iqiyi.com
+DOMAIN-SUFFIX,cook.iqiyi.com
+DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
+DOMAIN-SUFFIX,apisix-test.iqiyi.com
+DOMAIN-SUFFIX,www.bilibili.com
+DOMAIN-SUFFIX,api.bilibili.com
+DOMAIN-SUFFIX,interface.bilibili.com
+DOMAIN-SUFFIX,bangumi.bilibili.com/api
+DOMAIN-KEYWORD,atianqi.com
