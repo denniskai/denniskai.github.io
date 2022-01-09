@@ -9,13 +9,10 @@ DOMAIN-SUFFIX,ipservice.163.com
 # Unlock ip testing
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ifconfig.me
-# Unlock Weibo
-DOMAIN-SUFFIX,weibo.com
 # Unlock Xiami music
 DOMAIN-SUFFIX,xiami.com
 DOMAIN-SUFFIX,www.xiami.com
 DOMAIN-SUFFIX,xiami.net
-DOMAIN-SUFFIX,taobao.com
 DOMAIN-SUFFIX,mmstat.com
 DOMAIN-SUFFIX,alicdn.com
 # Unlock tencent
