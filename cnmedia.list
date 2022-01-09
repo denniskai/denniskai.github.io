@@ -9,12 +9,6 @@ DOMAIN-SUFFIX,ipservice.163.com
 # Unlock ip testing
 DOMAIN-SUFFIX,ip.cn
 DOMAIN-SUFFIX,ifconfig.me
-# Unlock Xiami music
-DOMAIN-SUFFIX,xiami.com
-DOMAIN-SUFFIX,www.xiami.com
-DOMAIN-SUFFIX,xiami.net
-DOMAIN-SUFFIX,mmstat.com
-DOMAIN-SUFFIX,alicdn.com
 # Unlock tencent
 DOMAIN-SUFFIX,pingfore.qq.com
 DOMAIN-SUFFIX,h5cgi.video.qq.com
@@ -53,8 +47,9 @@ DOMAIN-SUFFIX,passport.iqiyi.com
 DOMAIN-SUFFIX,cook.iqiyi.com
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
 DOMAIN-SUFFIX,apisix-test.iqiyi.com
+DOMAIN-KEYWORD,atianqi.com
+# Unlock bilibili
 DOMAIN-SUFFIX,www.bilibili.com
 DOMAIN-SUFFIX,api.bilibili.com
 DOMAIN-SUFFIX,interface.bilibili.com
 DOMAIN-SUFFIX,bangumi.bilibili.com/api
-DOMAIN-KEYWORD,atianqi.com
