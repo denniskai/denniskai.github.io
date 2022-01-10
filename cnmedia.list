@@ -33,12 +33,6 @@ DOMAIN-SUFFIX,v.smtcdns.com
 DOMAIN-SUFFIX,vv.video.qq.com
 
 # Unlock iqiyi
-USER-AGENT,QYPlayer*
-USER-AGENT,iQIYI*
-DOMAIN,intel-cache.m.iqiyi.com
-DOMAIN,intel-cache.video.iqiyi.com
-DOMAIN,intl-rcd.iqiyi.com
-DOMAIN,intl-subscription.iqiyi.com
 DOMAIN-SUFFIX,cmts.iqiyi.com
 DOMAIN-SUFFIX,iface2.iqiyi.com
 DOMAIN-SUFFIX,api.vip.iqiyi.com
@@ -57,19 +51,7 @@ DOMAIN-SUFFIX,userpref.iqiyi.com
 DOMAIN-SUFFIX,passport.iqiyi.com
 DOMAIN-SUFFIX,cook.iqiyi.com
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
-DOMAIN-SUFFIX,apisix-test.iqiyi.com
 DOMAIN-KEYWORD,atianqi.com
-DOMAIN-SUFFIX,inter.iqiyi.com
-DOMAIN-SUFFIX,inter.ptqy.gitv.tv
-DOMAIN-SUFFIX,intl.iqiyi.com
-DOMAIN-SUFFIX,iq.com
-IP-CIDR,23.40.241.251/32,no-resolve
-IP-CIDR,23.40.242.10/32,no-resolve
-IP-CIDR,103.44.56.0/22,no-resolve
-IP-CIDR,118.26.32.0/23,no-resolve
-IP-CIDR,118.26.120.0/24,no-resolve
-IP-CIDR,223.119.62.225/28,no-resolve
-URL-REGEX,^https?:\/\/int[\w-\.]+iqiyi\.com
 
 # Unlock bilibili
 DOMAIN-SUFFIX,www.bilibili.com
